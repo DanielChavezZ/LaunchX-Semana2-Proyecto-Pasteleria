@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+body {
+    background-color: #b091de;
+    color:#ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%232a2630' fill-opacity='0.1'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* Navigation */
+
+.nav-main {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 20px 0;
+}
+
+.nav-brand {
+    width: 100px;
+}
+
+/* NAV LEFT*/
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    padding: 10px;
+}
+
+.nav-main ul li a {
+    padding: 10px;
+}
+
+.nav-main ul li a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+
+.nav-main ul.nav-menu{
+    flex: 1;
+    margin: left 20px;
+}
+
+/* SHOWCASE */
+hr {
+    margin: 10px 0;
+}
+
+.showcase {
+    width: 100%;
+    height:  400px;
+    background: url(img/ShowcaseMenu.jpg) no-repeat center/cover;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.button {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #b091de;
+    color: #ffffff;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+    margin: 10px 0;
+}
+
+.button:hover{
+    opacity: .8;
+}
+
+.showcase h2,
+.showcase th,
+.showcase td {
+    margin-bottom: 20px;
+}
+
+/* FEATURED CAKE */
+.feautured-cake{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 25px;
+    margin: 10px 0;
+
+}
+
+.feautured-cake img {
+    width: 100%;
+    height: 180px;
+}
+
+.feautured-cake h3 {
+    font-size: 20px ;
+    margin: 10px 0;
+}
+
+.feautured-cake a {
+    padding: 10px 0;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.feautured-cake a:hover {
+    text-decoration: underline;
+
+}
+
+.ornaments {
+    width: 420%;
+    height:  400px;
+    background: url(img/ShowcaseOrnaments.jpg) no-repeat center/cover;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.button {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #b091de;
+    color: #ffffff;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+    margin: 10px 0;
+}
+
+.button:hover{
+    opacity: .8;
+}
+
+.ornaments h2,
+.ornaments th,
+.ornaments td {
+    margin-bottom: 20px;
+}
+.ornaments .content{
+    width: 40%;
+    padding: 90px 0 0 30px;
+    color:#ffffff;
+}
+
+/* SOCIAL */
+.social{
+    margin: 50px;
+}
+
+.social p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px ;
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a {
+    margin: 0 30px;
+}
+
+.links a i {
+    font-size: 3rem;
+
+}
+
+/* FOOTER */
+.footer-links {
+    background-color:salmon;
+    color:black;
+    font-size:12px;
+    padding: 30px 0;
+}
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* FORM*/
+
+.formulario {
+    margin-bottom: 100px;
+}
+.botones {
+    margin-left: 10px;
+}
+
+.botonprincipal {
+    background-color: #68065b;
+    color: #fff;
+    width: 70px;
+    height: 30px;
+}
+.form-group{
+    width: 100%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+.form-control{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 2px;
+    border: 1px solid;
+    
+}
+
+ /*TABLES*/
+
+
